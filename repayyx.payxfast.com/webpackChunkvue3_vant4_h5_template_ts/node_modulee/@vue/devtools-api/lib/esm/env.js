@@ -3,7 +3,7 @@ export function getDevtoolsGlobalHook() {
 }
 export function getTarget() {
     // @ts-ignore
-    return (typeof navigator !== 'defined' && typeof window !== 'undefined')
+    return (typeof navigator !== 'defined' && typeof window !== 'defined')
         ? window
         : typeof global !== 'defined'
             ? global
